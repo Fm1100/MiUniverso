@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Mi rincón personal: código, música, baloncesto y videojuegos." />
-  <title>Mi Universo | Proyecto Git</title>
+  <title>Mi Universo 2.0 EL COMO HACER UNA RAMA| Proyecto Git</title>
   <link rel="stylesheet" href="styles.css" />
   <script src="script.js" defer></script>
 </head>
+
 <body>
   <div class="ambient ambient-one"></div>
   <div class="ambient ambient-two"></div>
 
   <header class="topbar container">
-    <a class="brand" href="#inicio"><span class="brand-symbol">✳</span> MI<span>UNIVERSO</span><span class="brand-dot">.</span></a>
+    <a class="brand" href="#inicio"><span class="brand-symbol">✳</span> MI<span>UNIVERSO</span><span
+        class="brand-dot">.</span></a>
     <nav aria-label="Navegación principal">
       <a href="#gustos">Mis gustos</a>
       <a href="#reto">Reto del día</a>
     </nav>
-    <button class="icon-button" id="themeBtn" type="button" aria-label="Cambiar colores" title="Cambiar colores">☀</button>
+    <button class="icon-button" id="themeBtn" type="button" aria-label="Cambiar colores"
+      title="Cambiar colores">☀</button>
   </header>
 
   <main class="container" id="inicio">
     <section class="hero">
       <div class="eyebrow"><span class="live-dot"></span> PROYECTO PERSONAL · VERSIÓN 1.0</div>
       <h1>Entre código,<br /><span>ritmo y diversión.</span></h1>
-      <p class="intro">Un pequeño rincón de internet para mostrar lo que me gusta. Lo hice para practicar HTML, CSS, JavaScript y, sobre todo, mis primeros commits con Git.</p>
+      <p class="intro">Un pequeño rincón de internet para mostrar lo que me gusta. Lo hice para practicar HTML, CSS,
+        JavaScript y, sobre todo, mis primeros commits con Git.</p>
       <div class="hero-actions">
         <a class="primary-button" href="#gustos">Explorar mis gustos <span>↗</span></a>
         <a class="secondary-button" href="#reto">Probar un reto ↓</a>
@@ -38,28 +43,37 @@
     </section>
 
     <section class="interests" id="gustos">
-      <div class="section-heading"><div><span class="kicker">01 / INTERESES</span><h2>Las cosas que me mueven</h2></div><p>Cuatro mundos, infinitas ideas.</p></div>
+      <div class="section-heading">
+        <div><span class="kicker">01 / INTERESES</span>
+          <h2>Las cosas que me mueven</h2>
+        </div>
+        <p>Cuatro mundos, infinitas ideas.</p>
+      </div>
       <div class="card-grid">
         <article class="interest-card card-code">
-          <div class="card-top"><span class="card-icon" aria-hidden="true">{ }</span><span class="card-index">01</span></div>
+          <div class="card-top"><span class="card-icon" aria-hidden="true">{ }</span><span class="card-index">01</span>
+          </div>
           <h3>Programación</h3>
           <p>Crear soluciones con Python, Flask y JavaScript. De una idea a una aplicación real.</p>
           <div class="tags"><span>Python</span><span>Flask</span><span>Web</span></div>
         </article>
         <article class="interest-card card-music">
-          <div class="card-top"><span class="card-icon" aria-hidden="true">♫</span><span class="card-index">02</span></div>
+          <div class="card-top"><span class="card-icon" aria-hidden="true">♫</span><span class="card-index">02</span>
+          </div>
           <h3>Bajo eléctrico</h3>
           <p>Cinco cuerdas, mucho groove y ganas de dominar vallenato, salsa y corridos.</p>
           <div class="tags"><span>5 cuerdas</span><span>Groove</span><span>Música</span></div>
         </article>
         <article class="interest-card card-sport">
-          <div class="card-top"><span class="card-icon" aria-hidden="true">◉</span><span class="card-index">03</span></div>
+          <div class="card-top"><span class="card-icon" aria-hidden="true">◉</span><span class="card-index">03</span>
+          </div>
           <h3>Baloncesto</h3>
           <p>Entrenar, mejorar cada jugada y disfrutar la energía de la cancha.</p>
           <div class="tags"><span>Basket</span><span>Entreno</span><span>Equipo</span></div>
         </article>
         <article class="interest-card card-games">
-          <div class="card-top"><span class="card-icon" aria-hidden="true">✦</span><span class="card-index">04</span></div>
+          <div class="card-top"><span class="card-icon" aria-hidden="true">✦</span><span class="card-index">04</span>
+          </div>
           <h3>Videojuegos</h3>
           <p>Un poco de The Binding of Isaac, Fortnite y retos que nunca son iguales.</p>
           <div class="tags"><span>Isaac</span><span>Fortnite</span><span>Gaming</span></div>
@@ -68,11 +82,21 @@
     </section>
 
     <section class="challenge" id="reto">
-      <div><span class="kicker">02 / INTERACTIVO</span><h2>¿Qué hago hoy?</h2><p>Haz clic para recibir un reto inspirado en mis gustos.</p><button class="primary-button challenge-button" id="challengeBtn" type="button">Generar un reto <span>⚡</span></button></div>
-      <div class="challenge-panel" aria-live="polite"><div class="panel-label"><span>●</span> RETO ALEATORIO</div><p id="challengeText">Pulsa el botón y descubre tu próximo desafío.</p><span class="panel-footer">mi-universo / ideas.exe</span></div>
+      <div><span class="kicker">02 / INTERACTIVO</span>
+        <h2>¿Qué hago hoy?</h2>
+        <p>Haz clic para recibir un reto inspirado en mis gustos.</p><button class="primary-button challenge-button"
+          id="challengeBtn" type="button">Generar un reto <span>⚡</span></button>
+      </div>
+      <div class="challenge-panel" aria-live="polite">
+        <div class="panel-label"><span>●</span> RETO ALEATORIO</div>
+        <p id="challengeText">Pulsa el botón y descubre tu próximo desafío.</p><span class="panel-footer">mi-universo /
+          ideas.exe</span>
+      </div>
     </section>
   </main>
 
-  <footer class="footer container"><span>Hecho con ♥, HTML, CSS y JavaScript.</span><span>Mi primer proyecto para practicar Git · 2026</span></footer>
+  <footer class="footer container"><span>Hecho con ♥, HTML, CSS y JavaScript.</span><span>Mi primer proyecto para
+      practicar Git · 2026</span></footer>
 </body>
+
 </html>
